@@ -161,24 +161,38 @@ main{
     width: 100%;
     height: 100%;
     overflow: auto;
-
-}
-
-.modal_overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    visibility: hidden;
 }
 
 .modal_content {
     position: relative;
-    background-image: url("img/modal_bg.png");
+    /*background-color: white;*/
+    background-image: url("../img/modal_bg.png");
     height: 400px;
     width: 600px;
     border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.modal_content span {
+    margin-top: 24px;
+}
+
+.modal_content p {
+    margin-top: 12px;
+}
+
+.modal_content button{
+    margin-top: 38px;
 }
