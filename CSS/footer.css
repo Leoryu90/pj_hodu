@@ -10,7 +10,7 @@ footer{
 }
 
 
-/*메인 최사한 사진 파트*/
+/*메인 최하단 사진 파트*/
 .main_bottom_contain {
     height: 340px;
     position: relative;
@@ -37,5 +37,11 @@ footer{
     right: 50px;
 
     cursor: pointer;
+
+    opacity: 0.6;
 }
 
+.go_top_button:hover {
+    transition-delay: 100ms;
+    opacity: 1;
+}
