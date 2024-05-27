@@ -196,3 +196,7 @@ main{
 .modal_content button{
     margin-top: 38px;
 }
+
+.show {
+    visibility: visible;
+}
