@@ -17,6 +17,10 @@ a {
     text-decoration-line: none;
 }
 
+a:link {
+    color: black;
+}
+
 a:visited { color:black; }
 
 .font48 {

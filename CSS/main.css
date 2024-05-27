@@ -110,7 +110,7 @@ main{
 .custom_zoomcontrol span:first-child{border-bottom:1px solid #bfbfbf;}
 
 
-/*이메일 파트*/
+/*모달 파트*/
 .main_Subscribe {
     height: 200px;
     width: 1280px;
@@ -151,4 +151,34 @@ main{
 
 .main_Subscribe_emailBox input {
     border: none;
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content {
+    position: relative;
+    background-image: url("img/modal_bg.png");
+    height: 400px;
+    width: 600px;
+    border-radius: 30px;
 }
