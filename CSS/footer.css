@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+}
+
+/*하단 메뉴바 파트*/
+.footer_contain {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 320px;
+}
+
+
+/*메인 최사한 사진 파트*/
+.main_bottom_contain {
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_bottom_img {
+    width: 100%;
+    position: relative;
+    bottom: 350px;
+}
+
+
+/*최상단으로 이동하는 버튼*/
+.go_top_button {
+    height: 40px;
+    width: 40px;
+
+    border-radius: 20px;
+    border: none;
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    cursor: pointer;
+}
+

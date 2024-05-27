@@ -1,0 +1,154 @@
+main{
+    width:100%;
+    padding: 0 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*상단 인사말 파트*/
+.sayHello {
+    width:100%;
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sayHello_img {
+    height: 390px;
+    width: 660px;
+    border-radius: 30px;
+}
+
+.sayHello_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    margin-left: 110px;
+}
+
+/*메인 이미지 파트*/
+.main_img_section {
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.main_img_section_text_top {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main_img_section_img {
+    width: 100%;
+
+    list-style: none;
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_img_section_img li {
+    margin-top: 88px;
+    width: 100%;
+    gap: 72px;
+    flex: 0 0 33.333%;
+    box-sizing: border-box;
+}
+
+.main_img_section_img li img{
+    height: 378px;
+    width: 378px;
+    border-radius: 30px;
+}
+
+.main_img_section_text_bottom {
+    margin-top: 100px;
+}
+
+.main_img_section_button {
+    margin-top: 28px;
+}
+
+.line {
+    border: solid 1px #C4C4C4;
+    margin: 80px auto;
+}
+
+/*지도 파트*/
+.main_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.map_wrap {position:relative;overflow:hidden;width:100%;height:350px;}
+.radius_border{border:1px solid #919191;border-radius:5px;}
+.custom_typecontrol {position:absolute;top:10px;right:10px;overflow:hidden;width:130px;height:30px;margin:0;padding:0;z-index:1;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;}
+.custom_typecontrol span {display:block;width:65px;height:30px;float:left;text-align:center;line-height:30px;cursor:pointer;}
+.custom_typecontrol .btn {background:#fff;background:linear-gradient(#fff,  #e6e6e6);}
+.custom_typecontrol .btn:hover {background:#f5f5f5;background:linear-gradient(#f5f5f5,#e3e3e3);}
+.custom_typecontrol .btn:active {background:#e6e6e6;background:linear-gradient(#e6e6e6, #fff);}
+.custom_typecontrol .selected_btn {color:#fff;background:#425470;background:linear-gradient(#425470, #5b6d8a);}
+.custom_typecontrol .selected_btn:hover {color:#fff;}
+.custom_zoomcontrol {position:absolute;top:50px;right:10px;width:36px;height:80px;overflow:hidden;z-index:1;background-color:#f5f5f5;}
+.custom_zoomcontrol span {display:block;width:36px;height:40px;text-align:center;cursor:pointer;}
+.custom_zoomcontrol span img {width:15px;height:15px;padding:12px 0;border:none;}
+.custom_zoomcontrol span:first-child{border-bottom:1px solid #bfbfbf;}
+
+
+/*이메일 파트*/
+.main_Subscribe {
+    height: 200px;
+    width: 1280px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #263140;
+    border-radius: 30px;
+    margin-top: 81px;
+
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+
+.main_Subscribe_text {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_Subscribe_emailBox{
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+    padding-right: 5px;
+    padding-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+}
+
+.main_Subscribe_emailBox input {
+    border: none;
+}

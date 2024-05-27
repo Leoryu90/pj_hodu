@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Hodu's page</title>
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="CSS/default.css">
+</head>
+<body>
+    <header>
+        <!--상단 메뉴바-->
+        <nav>
+            <a href="hodu_project.html">
+                <img src="img/logo.png" alt="브랜드 로고">
+            </a>
+            <div class="nav_menu">
+                <a href="hodu_project.html">Home</a>
+                <a href="">About</a>
+                <a href="">Support</a>
+                <button class="button">Download</button>
+            </div>
+        </nav>
+        <!--헤더 사진 및 문구-->
+        <div class="header_contain">
+            <div class="header_contain_text">
+                <p class="font48">
+                    Lorem Ipsum is simply<br>
+                    dummy text of the printing and
+                </p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and<br>
+                    typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text<br>
+                    ever since the 1500s, when an unknown
+                </p>
+                <button class="button">Download</button>
+            </div>
+            <img class="header_contain_img" src="img/고양이%201.png" alt="고양이가 박스를 쓰고있는 사진">
+        </div>
+    </header>
+
+    <main>
+        <!--메인 인사말-->
+        <div class="sayHello">
+            <img class="sayHello_img" src="img/main_1.png" alt="누워있는 고양이 사진">
+            <div class="sayHello_text">
+                <p class="font36">
+                    Lorem Ipsum is simply<br>
+                    dummy text of the printing<br>
+                    and dummy text
+                </p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                    industry.
+                </p>
+            </div>
+        </div>
+        <!--메인 이미지 공간-->
+        <section class="main_img_section">
+
+            <h3 class="font48 color_orange">dummy text of the printing and dummy</h3>
+            <p class="main_img_section_text_top">
+                Lorem Ipsum is simply <span class="color_orange">dummy</span> text of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            </p>
+
+            <ul class="main_img_section_img">
+                <li><img src="https://picsum.photos/378/378?random=1" alt=""></li>
+                <li><img src="https://picsum.photos/378/378?random=2" alt=""></li>
+                <li><img src="https://picsum.photos/378/378?random=3" alt=""></li>
+                <li><img src="https://picsum.photos/378/378?random=4" alt=""></li>
+                <li><img src="https://picsum.photos/378/378?random=5" alt=""></li>
+                <li><img src="https://picsum.photos/378/378?random=6" alt=""></li>
+            </ul>
+
+
+            <p class="main_img_section_text_bottom font24">
+                Continue exploring HODU
+            </p>
+
+            <button class="button main_img_section_button">
+                Show more
+            </button>
+        </section>
+
+        <hr class="line">
+
+        <!--메인 지도 공간-->
+        <article class="main_map">
+            <p class="font36">Where you’ll be</p>
+            <p><em>지도 중심좌표가 변경되면 지도 정보가 표출됩니다</em></p>
+            <p id="result"></p>
+            <div class="map_wrap">
+                <div id="map" style="width:1278px;height:520px;position:relative;overflow:hidden;"></div>
+                <!-- 지도타입 컨트롤 div 입니다 -->
+                <div class="custom_typecontrol radius_border">
+                    <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+                    <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+                </div>
+                <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
+                <div class="custom_zoomcontrol radius_border">
+                    <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>
+                    <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+                </div>
+            </div>
+        </article>
+
+        <!--메인 구독 이메일 공간-->
+        <article class="main_Subscribe">
+            <div class="main_Subscribe_text">
+                <p class="font36">Subscribe to our Blog post</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text
+                </p>
+            </div>
+            <div class="main_Subscribe_emailBox">
+                <img src="img/mail.png" alt="">
+                <input type="email" placeholder="Enter your e-mail address">
+                <button class="button ">Subscribe</button>
+            </div>
+        </article>
+
+    </main>
+
+    <!--로고 및 하단 링크-->
+    <footer>
+
+        <!--하단 이미지-->
+        <div class="main_bottom_contain">
+            <img src="img/img_5.png" class="main_bottom_img" alt="">
+        </div>
+        <!-- 최상단으로 가는 버튼-->
+        <button class="go_top_button"><img src="img/keyboard_arrow_up.png" alt=""></button>
+
+        <div class="footer_contain">
+                <a href="hodu_project.html">
+                    <img src="img/logo.png" alt="브랜드 로고">
+                </a>
+                <div id="group-footer-icon">
+                    <a href="https://section.blog.naver.com/" target='_blank'>
+                        <img src="img/icon-blog.png" alt="블로그 바로가기">
+                    </a>
+                    <a href="https://www.instagram.com/" target='_blank'>
+                        <img src="img/icon-insta.png" alt="인스타그램 바로가기">
+                    </a>
+                    <a href="https://www.facebook.com/?locale=ko_KR" target='_blank'>
+                        <img src="img/icon-facebook.png" alt="페이스북 바로가기">
+                    </a>
+                    <a href="https://www.youtube.com/" target='_blank'>
+                        <img src="img/icon-youtube.png" alt="유튜브 바로가기">
+                    </a>
+                </div>
+        </div>
+    </footer>
+
+    <!--자바 스크립트-->
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	7913aebe33aa21556a797de0c6063f7b"></script>
+    <script src="JS/map.js"></script>
+    <script src="JS/morePhoto.js"></script>
+    <script src="JS/goToTop.js"></script>
+</body>
+</html>
