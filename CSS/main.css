@@ -84,6 +84,7 @@ main{
 .line {
     border: solid 1px #C4C4C4;
     margin: 80px auto;
+    width: 100%;
 }
 
 /*지도 파트*/
