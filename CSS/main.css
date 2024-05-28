@@ -1,6 +1,5 @@
 main{
     width:100%;
-    padding: 0 320px;
 
     display: flex;
     flex-direction: column;
@@ -10,6 +9,7 @@ main{
 
 /*상단 인사말 파트*/
 .sayHello {
+    padding: 0 320px;
     width:100%;
 
     margin-top: 80px;
@@ -36,6 +36,7 @@ main{
 /*메인 이미지 파트*/
 .main_img_section {
     width:100%;
+    padding: 0 320px;
 
     display: flex;
     flex-direction: column;
@@ -54,22 +55,21 @@ main{
 
     list-style: none;
 
-
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .main_img_section_img li {
     margin-top: 88px;
     width: 100%;
-    gap: 72px;
     flex: 0 0 33.333%;
     box-sizing: border-box;
 }
 
 .main_img_section_img li img{
-    height: 378px;
-    width: 378px;
+    height: 280px;
+    width: 280px;
     border-radius: 30px;
 }
 
