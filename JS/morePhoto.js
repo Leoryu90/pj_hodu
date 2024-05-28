@@ -13,7 +13,7 @@ async function fetchImages(page){
             throw new Error('네트워크 응답에 문제가 있습니다.');
         }
 
-        // 제이슨 데이터를 자바스크립트 객체로 파싱
+        // 제이슨 데이터를 자바스크립트 객체로 바꾸는 것
         const datas = await response.json();
         makeImageList(datas);
 
