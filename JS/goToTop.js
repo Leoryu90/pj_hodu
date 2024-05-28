@@ -5,7 +5,7 @@ window.addEventListener('scroll', function() {
     // 현재 스크롤 위치 확인
     const scrollpoint = window.scrollY;
 
-    if (scrollpoint > 200) {
+    if (scrollpoint > 230) {
         scrollTopBtn.classList.remove('hidden');
     } else {
         scrollTopBtn.classList.add('hidden');
